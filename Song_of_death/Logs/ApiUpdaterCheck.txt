@@ -1,0 +1,10 @@
+[api-updater (non-obsolete-error-filter)] 16/02/2022 14:34:59 : Starting C:/Users/CAMPO/OneDrive/2020.3.26f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 267.4151ms
+moved types parse time: 102ms
+candidates parse time : 23ms
+C# parse time         : 421ms
+candidates check time : 117ms
+console write time    : 53ms
+
