@@ -34,6 +34,7 @@ public class Physics_Button : MonoBehaviour
     {
         if (!_isPressed && GetValue() + threshold >= 1)
             Pressed();
+        
         if (_isPressed && GetValue() - threshold <= 0)
             Released();
     }
@@ -54,8 +55,10 @@ public class Physics_Button : MonoBehaviour
         OnPressed.Invoke();
         Debug.Log("Pressed");
         
+        
     }
 
+   
     private void Released()
     {
         _isPressed = false;
