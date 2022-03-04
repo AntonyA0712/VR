@@ -126,9 +126,10 @@ public class Phone_Display : MonoBehaviour
 
     private void CheckResults()
     {
-        if (_CodeSeq == "Blank")
+        if (_CodeSeq == "5059")
         {
             Debug.Log("Correct");
+            GetComponent<Animator>().Play("Safe_Open");
         }
         else
         {
